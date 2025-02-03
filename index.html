@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <title>Portfolio Joissaint Karl</title>
+    </head>
+    <body>  
+        <div class="container">
+          <div class="nav">
+                <div class="logo" href="index.html">Joissaint Karl</div>
+                <ul class="navItems">
+                    <li><a href="docs/cv.pdf">CV</a></li>
+                    <li><a href="/vues/vt.html">Veille technologique</a></li>
+                    <li><a href="/vues/da.html">Documents annexes</a></li>
+                    <li><a href="/vues/rea.html">Réalisations</a></li>
+                </ul>
+                <div class="links">
+                    <a href="https://www.linkedin.com/in/Karl-Joissaint"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/KJoissaint"><i class="fab fa-github"></i></a>
+                </div>
+            </nav>
+        </div>
+         
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Bonjour</span>
+                <h1>Je suis <span class="multiText"></span></h1>
+                <div class="int">
+                <!--<p>Bienvenue sur mon Portfolio où vous trouverez des informations me concernant. Comprenant mes travaux scolaires,</p> 
+                <p>mais également mes réalisations en dehors du cadre scolaire.</p>-->
+                <div class="btns">
+                    <button><a href="docs/cv.pdf" download = "cv.pdf">Télécharger mon CV</a></button>
+                    <button><a href="mailto:joissaintkarl@gmail.com">Me contacter par mail</a></button>
+                </div>
+            </div>
+        </div>
+            <!--<div class="cols cols1">
+                <div class="imgbox">
+                    <img src="img/cbb.jpg" id="splash">
+                    <img src="img/pc.png">
+                </div>
+            </div> -->
+        </div>
+    </div>
+        <script src="js/script.js"></script>
+        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+        <script>
+            var typingEffect = new Typed(".multiText",{
+                strings : ["Etudiant", "Développeur", "Monteur Vidéo"],
+                loop : true,
+                typeSpeed : 100,
+                backSpeed : 80,
+                backdelay : 1500,
+            })
+        </script>
+    </body>
+</html>
